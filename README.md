@@ -1,10 +1,14 @@
-Build scripts for Vulkan-Samples
+**Build scripts for Vulkan-Samples**
 
-This README is simply a quick-start guide on the build script themselves. For more
-information on how to run the script, please refer to the user guide.
+-This README is simply a quick-start guide on the build script themselves. 
+For more information on how to run the script, please refer to the user guide.
 
-How to build:
+**How to build:**
 
-cd build-Vulkan-Samples
+`cd build-Vulkan-Samples`
 
-source build.sh
+`source build.sh`
+
+**Install the apk on the device:**
+
+`adb install app/build/outputs/apk/release/vulkan_samples-release.apk`
